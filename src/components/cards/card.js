@@ -19,19 +19,12 @@ const Cards = () => {
             <Card.Img variant="top" src={element.imgdata} />
             <Card.Body>
               <Card.Title>{element.rname}</Card.Title>
-              <Card.Text>
-                {element.address}
+             
+               <Card.Text>
+               Price : $ {element.price}
               </Card.Text>
-              <Card.Text>
-                {element.somedata}
-              </Card.Text>
-              <Card.Text>
-                {element.price}
-              </Card.Text>
-              <Card.Text>
-                {element.rating}
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+             
+              <Button variant="primary" className='col-lg-12 '>Add to Cart</Button>
             </Card.Body>
    
             </Card>
